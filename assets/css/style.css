@@ -1452,13 +1452,21 @@ footer a:hover {
     padding: 0;
     color: #000;
     font-weight: 700;
-    letter-spacing: 1px;
+    font-size: 16px;
 }
 
 .features .feature-item p {
     margin-top: 20px;
     margin-bottom: 0;
     padding: 0;
+    color: #000;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 800px) {
+    .feature-item:not(:first-child) {
+        margin-top: 50px;
+    }
 }
 
 /* --------------------------------
