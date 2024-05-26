@@ -693,7 +693,7 @@ ul.tags li a:hover {
 
 .box-header.is-fixed {
     position: fixed;
-    top: -50px;
+    top: -60px;
     -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -711,8 +711,7 @@ ul.tags li a:hover {
 
 .box-logo {
     display: block;
-    padding: 20px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .box-primary-nav-trigger {
@@ -1194,6 +1193,7 @@ footer a:hover {
 
 .logo-footer {
     margin-bottom: 30px;
+    width: 40px;
 }
 
 .footer-widget h4 {
