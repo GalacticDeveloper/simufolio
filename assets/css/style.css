@@ -689,6 +689,12 @@ ul.tags li a:hover {
     backface-visibility: hidden;
 }
 
+@media (max-width: 400px) {
+    .box-header {
+        top: 0;
+    }
+}
+
 .box-header.menu-is-open {
     background-color: rgba(255, 255, 255, 0.96);
 }
