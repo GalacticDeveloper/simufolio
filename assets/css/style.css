@@ -889,7 +889,7 @@ ul.tags li a:hover {
 .box-intro {
     text-align: center;
     display: table;
-    height: 98.5vh;
+    height: 100vh;
     width: 100%;
     background-image: url(../img/header.jpg);
     background-attachment: fixed;
@@ -1345,7 +1345,7 @@ footer a:hover {
 
 @media (max-width: 992px) {
     footer.main-footer * {
-        text-align: center;
+        text-align: left;
     }
     footer.main-footer ul.social-icons {
         float: left;
