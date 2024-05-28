@@ -889,6 +889,7 @@ ul.tags li a:hover {
 .box-intro {
     text-align: center;
     display: table;
+    height: 98vh;
     width: 100%;
     background-image: url(../img/header.jpg);
     background-attachment: fixed;
@@ -965,6 +966,7 @@ b i:last-child {
     align-items: center;
     height: 90vh;
     justify-content: center;
+    row-gap: 50px;
 }
 
 .avatar {
