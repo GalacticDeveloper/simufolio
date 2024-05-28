@@ -931,7 +931,7 @@ b i:last-child {
 }
 
 .box-intro h1 {
-    font-size: 38px;
+    font-size: 32px;
     color: #333;
     letter-spacing: 6px;
     font-weight: 700;
@@ -947,6 +947,19 @@ b i:last-child {
     font-weight: 700;
 }
 
+@media (max-width: 992px) {
+    .box-intro h1 {
+        font-size: 28px;
+        letter-spacing: 5px;
+        padding: 0 20px;
+    }
+
+    .box-intro h3 {
+        font-size: 16px;
+        letter-spacing: 8px;
+    }
+}
+
 .box-intro-container {
     display: flex;
     flex-direction: column;
@@ -956,8 +969,8 @@ b i:last-child {
 }
 
 .avatar {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     margin: 0 auto;
     vertical-align: middle;
     overflow: hidden;
@@ -969,7 +982,7 @@ b i:last-child {
 .avatar img {
     width: 350px;
     scale: 2.2;
-    margin-left: -20px;
+    margin-left: -30px;
     height: auto;
 }
 
@@ -1172,18 +1185,6 @@ b i:last-child {
         opacity: 0;
         -webkit-transform: translateZ(-20px) rotateX(-90deg);
         transform: translateZ(-20px) rotateX(-90deg);
-    }
-}
-
-@media (max-width: 992px) {
-    .box-intro h1 {
-        font-size: 25px;
-        letter-spacing: 5px;
-    }
-
-    .box-intro h3 {
-        font-size: 12px;
-        letter-spacing: 8px;
     }
 }
 
