@@ -889,7 +889,7 @@ ul.tags li a:hover {
 .box-intro {
     text-align: center;
     display: table;
-    height: 100vh;
+    height: 98vh;
     width: 100%;
     background-image: url(../img/header.jpg);
     background-attachment: fixed;
