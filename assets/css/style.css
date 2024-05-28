@@ -698,6 +698,14 @@ ul.tags li a:hover {
     margin-left: 60px;
 }
 
+@media (max-width: 992px) {
+    .box-logo {
+        display: flex;
+        margin-left: unset;
+        justify-content: center;
+    }
+}
+
 .box-primary-nav-trigger {
     position: absolute;
     right: 0;
