@@ -237,6 +237,10 @@ section {
     margin-top: 50px;
 }
 
+.mt-60 {
+    margin-top: 60px;
+}
+
 .mt-80 {
     margin-top: 80px;
 }
@@ -251,6 +255,10 @@ section {
 
 .mb-50 {
     margin-bottom: 50px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
 }
 
 .mb-80 {
@@ -326,7 +334,7 @@ a {
     display: inline-block;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    padding: 0 0 80px 0;
+    padding: 0 0 60px 0;
     font-size: 14px;
     letter-spacing: 1px;
     margin-top: 50px;
@@ -684,14 +692,14 @@ ul.tags li a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 80px;
+    padding: 60px;
 }
 
 
 @media (max-width: 768px) {
     .box-intro {
-        gap: 16px;
-        padding: 30px 16px 60px;
+        gap: 20px;
+        padding: 30px 16px 50px;
     }
 }
 
@@ -715,8 +723,8 @@ ul.tags li a:hover {
 }
 
 .avatar {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
     vertical-align: middle;
     overflow: hidden;
@@ -728,8 +736,21 @@ ul.tags li a:hover {
 .avatar img {
     width: 350px;
     scale: 2.2;
-    margin-left: -30px;
+    margin-left: -15px;
+    margin-top: 10px;
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .avatar {
+        width: 220px;
+        height: 220px;
+    }
+
+    .avatar img {
+        margin-left: -25px;
+        margin-top: 5px;
+    }
 }
 
 .content-desc {
@@ -1020,7 +1041,7 @@ footer a:hover {
 
 -------------------------------- */
 .features {
-    padding: 80px 0 50px 0;
+    padding: 60px 0 20px 0;
     background-color: #ffeedb;
     border-top: 15px double #fff;
 }
@@ -1082,7 +1103,7 @@ footer a:hover {
 }
 
 .services {
-    padding: 0 0 80px;
+    padding: 0 0 60px;
     box-shadow: inset 0 0 0 50vw rgba(240, 240, 240, 0.8);
     background: url("../img/services.jpg");
     background-size: cover;
@@ -1130,7 +1151,7 @@ footer a:hover {
 -------------------------------- */
 
 .testimonials {
-    padding: 80px 0 80px;
+    padding: 60px 0 60px;
     color: #fff;
 }
 
