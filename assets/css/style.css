@@ -1166,9 +1166,17 @@ footer a:hover {
   to {opacity:1 ;}
 }
 
+
 @media only screen and (max-width: 768px) {
   .popup .popuptext {
     left: 28%;
+    bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .popup .popuptext {
+    left: 21%;
     bottom: 15%;
   }
 }
