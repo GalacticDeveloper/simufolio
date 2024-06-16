@@ -112,6 +112,7 @@
                 planning for education expenses, or building wealth for the
                 future.
               </p>
+              <button class="default-btn btn-link">Read More</button>
             </div>
           </div>
           <div class="feature-item">
@@ -127,6 +128,7 @@
                 goals to provide personalized recommendations and strategies to
                 enhance your readiness.
               </p>
+              <button class="default-btn btn-link">Read More</button>
             </div>
           </div>
           <div class="feature-item">
@@ -141,6 +143,7 @@
                 personalized guidance to ensure you have the right coverage in
                 place, providing financial security and peace of mind.
               </p>
+              <button class="default-btn btn-link">Read More</button>
             </div>
           </div>
           <div class="feature-item">
@@ -156,6 +159,7 @@
                 specific needs, covering trip cancellations, medical
                 emergencies, lost baggage, and more.
               </p>
+              <button class="default-btn btn-link">Read More</button>
             </div>
           </div>
         </div>
@@ -299,7 +303,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="main-footer">
+    <footer class="main-footer" id="contact_me">
       <div class="container">
         <div class="row mt-60 mb-50 footer-widgets">
           <!-- Start Contact Widget -->
@@ -378,9 +382,7 @@
       type="text/javascript"
       src="assets/js/jquery.animsition.min.js"
     ></script>
-    <script type="text/javascript" src="assets/js/init.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
     <script type="text/javascript" src="assets/js/wow.min.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 
@@ -398,14 +400,6 @@
           animationLoop: true,
           pauseOnHover: false,
           slideshowSpeed: 4000,
-        });
-
-        smoothScroll.init();
-
-        // initialize isotope
-        var $container = $(".portfolio_container");
-        $container.isotope({
-          filter: "*",
         });
 
         $(".portfolio_filter a").click(function () {
