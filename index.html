@@ -112,7 +112,40 @@
                 planning for education expenses, or building wealth for the
                 future.
               </p>
-              <button class="default-btn btn-link">Read More</button>
+              <div class="popup">
+                <span class="popuptext" id="myPopupFinancialPlans">
+                  <b>Tax-Free Savings Account (TFSA):</b><br />
+                  A tax-advantaged tool to grow your savings and investments
+                  without tax implications. <br /><br />
+
+                  <b>Registered Retirement Savings Plan (RRSP):</b><br />
+                  A tax-advantaged vehicle to help save for retirement, offering
+                  tax deductions on contributions.
+                  <br /><br />
+
+                  <b>First Home Savings Account (FHSA):</b><br />
+                  A tax-efficient account to help save up for a qualifying first
+                  home tax-free.<br /><br />
+
+                  <b>Guaranteed Interest Funds: </b><br />
+                  Get a secure and predictable return on investment.<br /><br />
+
+                  <b>Segregated Funds: </b><br />
+                  Manage market risk with downside protection (guarantees) and
+                  growth potential.
+
+                  <b>Account Rollovers: </b><br />
+                  Seamless, tax-efficient transitions between accounts (e.g.,
+                  converting an RRSP to a RRIF).
+                </span>
+              </div>
+              <button
+                id="read-more-btn-fp"
+                class="default-btn btn-link"
+                onclick="handleTogglePopupFinancialPlans()"
+              >
+                Read More
+              </button>
             </div>
           </div>
           <div class="feature-item">
@@ -128,7 +161,6 @@
                 goals to provide personalized recommendations and strategies to
                 enhance your readiness.
               </p>
-              <button class="default-btn btn-link">Read More</button>
             </div>
           </div>
           <div class="feature-item">
@@ -143,7 +175,39 @@
                 personalized guidance to ensure you have the right coverage in
                 place, providing financial security and peace of mind.
               </p>
-              <button class="default-btn btn-link">Read More</button>
+              <div class="popup">
+                <span class="popuptext" id="myPopupInsurance">
+                  <b>Life Insurance (Term, Whole Life, and Universal Life):</b
+                  ><br />
+                  Financial protection in the event of death; a financial safety
+                  net. <br /><br />
+
+                  <b>Disability Insurance:</b><br />
+                  Financial support in case you're unable to work due to an
+                  injury or disability; ensures your income continues during
+                  tough times.
+                  <br /><br />
+
+                  <b>Critical Illness Insurance:</b><br />
+                  Financial support upon diagnosis of a covered illness; takes
+                  care of your finances so you can focus on recovery.<br /><br />
+
+                  <b>Extended Health Insurance:</b><br />
+                  Coverage beyond basic medical needs, including vision and
+                  dental care.<br /><br />
+
+                  <b>Guaranteed Issue Insurance:</b><br />
+                  Coverage without a medical exam or health questions; an easy
+                  way to secure protection regardless of your health.
+                </span>
+              </div>
+              <button
+                id="read-more-btn"
+                class="default-btn btn-link"
+                onclick="handleTogglePopupInsurance()"
+              >
+                Read More
+              </button>
             </div>
           </div>
           <div class="feature-item">
@@ -159,7 +223,6 @@
                 specific needs, covering trip cancellations, medical
                 emergencies, lost baggage, and more.
               </p>
-              <button class="default-btn btn-link">Read More</button>
             </div>
           </div>
         </div>
@@ -417,6 +480,32 @@
           return false;
         });
       });
+
+      function handleTogglePopupInsurance() {
+        const button = document.getElementById("read-more-btn");
+        const popup = document.getElementById("myPopupInsurance");
+
+        popup.classList.toggle("show");
+
+        if ([...popup.classList].includes("show")) {
+          button.textContent = "Read Less";
+        } else {
+          button.textContent = "Read More";
+        }
+      }
+
+      function handleTogglePopupFinancialPlans() {
+        const button = document.getElementById("read-more-btn-fp");
+        const popup = document.getElementById("myPopupFinancialPlans");
+
+        popup.classList.toggle("show");
+
+        if ([...popup.classList].includes("show")) {
+          button.textContent = "Read Less";
+        } else {
+          button.textContent = "Read More";
+        }
+      }
     </script>
   </body>
 </html>
